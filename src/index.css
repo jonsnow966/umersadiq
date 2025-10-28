@@ -1,2 +1,65 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
+@theme {
+    --color-primary: #3F9BD9;
+    --color-gray: #ABB2BF;
+    --color-white: #FFFFFF;
+    --color-background: #282C33;
+    --color-background-2: #3C414B;
+
+    --breakpoint-xxs: 250px;
+    --breakpoint-xs: 400px;
+    --breakpoint-770: 770px;
+}
+
+@layer utilities {
+  .perspective-1200 { perspective: 1200px; }
+  .preserve-3d      { transform-style: preserve-3d; }
+  .backface-hidden  { backface-visibility: hidden; }
+
+  /* folder open – top flips up, bottom flips down */
+  .origin-top    { transform-origin: top center; }
+  .origin-bottom { transform-origin: bottom center; }
+  .rotate-x-150  { transform: rotateX(150deg); }
+  .-rotate-x-150 { transform: rotateX(-150deg); }
+  .translate-z-20{ transform: translateZ(20px); }
+}
+
+@keyframes fillProgress {
+  0% {
+    stroke-dashoffset: 283; /* Start with no fill (0%) */
+  }
+  100% {
+    stroke-dashoffset: 0; /* Fully filled (100%) */
+  }
+}
+
+:root {
+    --font-fira: 'Fira Code', monospace;
+
+    font-family: var(--font-fira);
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==== Hide scrollbar – works everywhere ==== */
+.hide-scrollbar {
+    -ms-overflow-style: none;      /* IE & Edge */
+    scrollbar-width: none;        /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari, Opera */
+}
+
+/* Optional: make sure the element can still be scrolled */
+.hide-scrollbar {
+    overflow-y: auto;   /* or overflow-x: auto */
+    overflow-x: hidden;
+}

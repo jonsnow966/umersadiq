@@ -1,36 +1,36 @@
 [
   {
     "id": 1,
-    "degree": "Matriculation",
+    "degree": "SSC",
     "program": "Science",
-    "image": "dhacss-1.png",
+    "image": "logo-dhacss.png",
     "instname": "DHACSS, Phase VII, Karachi ",
     "year":"2008-2013",
     "score": "80%"
   },
   {
     "id": 2,
-    "degree": "Intermediate",
+    "degree": "HSSC",
     "program": "Computer Science",
-    "image": "impcg-1.png",
+    "image": "logo-impc.png",
     "instname": "IMPC, H-8, Islamabad",
     "year":"2013-2015",
     "score": "60%"
   },
   {
     "id": 3,
-    "degree": "Diploma",
-    "program": "Computer Hardware & Software",
-    "image": "niste-3.png",
+    "degree": "DCHS",
+    "program": "Computer HW & SW",
+    "image": "logo-niste.png",
     "instname": "NISTE, H-8, Islamabad",
     "year":"2017-2018",
     "score": "75%"
   },
   {
     "id": 4,
-    "degree": "Bachelor's",
+    "degree": "BSCS",
     "program": "Computer Science",
-    "image": "iiui-1.png",
+    "image": "logo-iiui.png",
     "instname": "IIUI, Islamabad",
     "year":"2018-2023",
     "score": "79%"
