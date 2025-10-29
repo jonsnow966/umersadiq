@@ -50,13 +50,13 @@ function App() {
 
           <SidebarLeft />
           <img rel='icon' src='/dots.png' className="w-0 md:w-30 h-fit
-          absolute top-150 -left-14
+          absolute top-[40%] -left-14
           transition-all duration-800 ease-in-out
           animate-[pulse_2s_linear_infinite]
           "></img>
 
           <div className="w-0 md:w-40 h-40
-          absolute top-320 -left-25 lg:-right-20
+          absolute top-[70%] -left-25 lg:-right-20
           transition-all duration-800 ease-in-out
           animate-[bounce_10s_linear_infinite]
           border-2 border-gray"></div>
@@ -75,7 +75,7 @@ function App() {
           border-2 border-gray"></div>
 
           <img rel='icon' src='/dots.png' className="w-0 md:w-30 h-fit
-          absolute top-[70%] -right-14
+          absolute top-[60%] -right-14
           transition-all duration-800 ease-in-out
           animate-[pulse_2s_linear_infinite]
           "></img>

@@ -41,7 +41,7 @@ function Header() {
         }`;
     };
 
-    const isActive = (path: string) => location.pathname === path;
+  const isActive = (path: string) => location.pathname === path;
   return (
     <div className="w-full h-full 
     flex jusify-center items-center
