@@ -49,7 +49,7 @@ function About() {
 
     <div className="w-full h-fit
     flex flex-col items-start gap-10
-    px-5 md:px-0 pb-10
+    px-5 md:px-0 pb-10 mt-10
     transition-all duration-1000 ease-in-out">
       <h1 className="text-white text-4xl font-semibold">
             <span className="text-primary">#</span>
