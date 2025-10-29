@@ -187,13 +187,13 @@ function About() {
         <div className='w-full h-fit
         flex flex-col justify-center items-center border border-gray'>
           <p className="text-gray text-2xl p-4">
-            I happily un-married</p>
+            I'm happily un-married</p>
         </div>
 
         <div className='w-full h-fit
         flex flex-col justify-center items-center border border-gray'>
           <p className="text-gray text-2xl p-4">
-            I hate to exercise</p>
+            I hate diet and exercise</p>
         </div>
       </div> 
     </div>
