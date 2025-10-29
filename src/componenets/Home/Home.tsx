@@ -14,7 +14,7 @@ function Home() {
       flex flex-col md:flex-row justify-center items-start gap-10 md:gap-2">
 
         <div className="w-full md:w-[60%] 2xl:w-[80%] h-fit
-        flex flex-col justify-start items-start 
+        flex flex-col justify-start items-start  
         gap-10 md:gap-[53px]
         pt-2 pr-0 md:pr-2 770:pr-4
         transition-all duration-1000 ease-in-out">
@@ -42,15 +42,15 @@ function Home() {
         <div className="w-full md:w-[50%] lg:w-[40%] 2xl:w-[50%]  h-fit
         flex justify-center md:justify-end
         transition-all duration-1000 ease-in-out">
-            <img rel="image" alt="pic-umer-1" src="/public/pic-home.png" 
+            <img rel="image" alt="pic-umer-1" src="/pic-home.png" 
             className="max-w-full object-contain animate-fade-in"/>
         </div>
       </div>
 
       <div className="w-full 
       flex justify-center items-center">
-        <img rel="image" alt="quote" src="/public/quote-mobile.png" className="flex md:hidden max-w-full object-contain"/>
-        <img rel="image" alt="quote" src="/public/quote-desktop.png" className="hidden md:flex max-w-[80%] object-contain"/>
+        <img rel="image" alt="quote" src="/quote-mobile.png" className="flex md:hidden max-w-full object-contain"/>
+        <img rel="image" alt="quote" src="/quote-desktop.png" className="hidden md:flex max-w-[80%] object-contain"/>
       </div>
     </div>
   )

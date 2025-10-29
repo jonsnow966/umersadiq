@@ -49,7 +49,7 @@ function App() {
         bg-background">
 
           <SidebarLeft />
-          <img rel='icon' src='/public/dots.png' className="w-0 md:w-30 h-fit
+          <img rel='icon' src='/dots.png' className="w-0 md:w-30 h-fit
           absolute top-150 -left-14
           transition-all duration-800 ease-in-out
           animate-[pulse_2s_linear_infinite]
@@ -74,7 +74,7 @@ function App() {
           animate-[bounce_10s_linear_infinite]
           border-2 border-gray"></div>
 
-          <img rel='icon' src='/public/dots.png' className="w-0 md:w-30 h-fit
+          <img rel='icon' src='/dots.png' className="w-0 md:w-30 h-fit
           absolute top-[70%] -right-14
           transition-all duration-800 ease-in-out
           animate-[pulse_2s_linear_infinite]

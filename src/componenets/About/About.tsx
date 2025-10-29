@@ -42,8 +42,8 @@ function About() {
       flex justify-center md:justify-end
       md:pt-7 lg:pt-0
       transition-all duration-1000 ease-in-out">
-          <img rel="image" alt="pic-umer-1" src="/public/pic-about.png" 
-          className="max-w-full object-contain"/>
+          <img rel="image" alt="pic-umer-1" src="/pic-about.png" 
+          className="max-w-full object-contain"/> 
       </div>
     </div>
 

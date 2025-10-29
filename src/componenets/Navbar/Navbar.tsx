@@ -14,7 +14,7 @@ const handleClick = (path: string) => {
     closeMenu();
 };
 
-const linkClass = (path: string) =>
+const linkClass = (path: string) => 
     `flex items-center gap-2 
     px-6 py-3 
     text-lg 
@@ -58,17 +58,17 @@ return(
       <div className="w-full h-fit flex flex-1 flex-row justify-center items-center gap-4">
         <a href="https://github.com/jonsnow966" target="_blank" 
         className="cursor-pointer w-15">
-          <img rel="icon" src="/public/icon-github.svg" className="w-full"></img>
+          <img rel="icon" src="/icon-github.svg" className="w-full"></img>
         </a>
 
         <a href="https://www.linkedin.com/in/umer-sadiq-619615386" target="_blank" 
         className="cursor-pointer w-15">
-          <img rel="icon" src="/public/icon-linkedin.svg" className="w-full"></img>
+          <img rel="icon" src="/icon-linkedin.svg" className="w-full"></img>
         </a>
 
         <a href="https://www.figma.com/files/team/1534145559889077837/user/1534145557215091001?fuid=1534145557215091001" 
         target="_blank" className="cursor-pointer w-15">
-          <img rel="icon" src="/public/icon-figma.svg" className="w-full"></img>
+          <img rel="icon" src="/icon-figma.svg" className="w-full"></img>
         </a>
       </div>
     </div>

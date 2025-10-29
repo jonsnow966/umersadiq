@@ -4,7 +4,7 @@ function Footer() {
   const mailtoLink = `mailto:${email}`;
 
   return (
-    <div className="w-full md:w-[80%] h-fit
+    <div className="w-full md:w-[80%] h-fit 
     flex flex-col gap-8 sm:gap-10
     ">
       <div className="w-full flex flex-col gap-7 sm:gap-0 sm:flex-row">
@@ -16,7 +16,7 @@ function Footer() {
           ">
             <div className="w-10
             flex justify-center items-center">
-              <img rel="logo" alt="logo-main" src="/public/logo-main.png" 
+              <img rel="logo" alt="logo-main" src=" /logo-main.png" 
               className="max-w-full max-h-full object-contain"></img>
             </div>
 
@@ -41,20 +41,20 @@ function Footer() {
               <a href="https://wa.me/03332050848" target="_blank" 
               className="w-10
               cursor-pointer flex justify-center items-center rounded-[20px] p-1 hover:bg-background-2">
-                  <img rel="icon" src="/public/icon-whatsapp.svg" className="w-full"></img>
+                  <img rel="icon" src=" /icon-whatsapp.svg" className="w-full"></img>
               </a>
 
               <a href={mailtoLink}
               className="w-11
               cursor-pointer
               rounded-[3px] hover:bg-background-2">
-                  <img rel="icon" src="/public/icon-mail.svg" className="w-full"></img>
+                  <img rel="icon" src=" /icon-mail.svg" className="w-full"></img>
               </a>
 
               <a href="https://www.linkedin.com/in/umer-sadiq-619615386" target="_blank" 
               className="w-11
               cursor-pointer flex justify-center items-center rounded-[3px] p-1 hover:bg-background-2">
-                  <img rel="icon" src="/public/icon-linkedin.svg" className="w-full"></img>
+                  <img rel="icon" src=" /icon-linkedin.svg" className="w-full"></img>
               </a>
           </div>
         </div>

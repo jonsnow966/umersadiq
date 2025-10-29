@@ -22,7 +22,7 @@ function Header() {
             navButtonRef.current &&
             !navButtonRef.current.contains(event.target as Node)
         ) {
-            setIsNavOpen(false);
+            setIsNavOpen(false); 
         }
         };
 
@@ -54,7 +54,7 @@ function Header() {
 
         <div className="w-10
         flex justify-center items-center">
-          <img rel="logo" alt="logo-main" src="/public/logo-main.png" 
+          <img rel="logo" alt="logo-main" src="/logo-main.png" 
           className="max-w-full max-h-full object-contain"></img>
         </div>
 
@@ -107,7 +107,7 @@ function Header() {
         cursor-pointer"
         onClick={toggleNavbar}
         ref={navButtonRef}>
-          <img rel="icon" alt="icon-menu" src="/public/icon-menu-button.png" 
+          <img rel="icon" alt="icon-menu" src="/icon-menu-button.png" 
           className="w-[90%] hover:w-full transition-all duration-1000 ease-in-out"></img>
         </button>
 

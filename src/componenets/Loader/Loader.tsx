@@ -55,7 +55,7 @@ const Loader: React.FC<LoaderProps> = ({ className = '' }) => {
               strokeLinecap="round"
               className="animate-[fillProgress_3s_ease-in-out]"
             />
-          </svg>
+          </svg> 
           <img
             src="/logo-main.png"
             className="absolute inset-5 w-14 h-14 rounded-full z-20 animate-[spin_4s_linear_infinite]"
