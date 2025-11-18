@@ -49,24 +49,21 @@ function About() {
           />
 
           <CardAbout 
-            icon="dev"
-            heading="Responsive & Adaptive Designs"
-            text="Can develop responsive
-            and user-friendly web interfaces using modern front-end technologies."
+            icon="backend"
+            heading="Backend Development"
+            text='Can integrate APIs to perform CRUD operations, tanStack & React Hooks for State Management.'
           />
 
           <CardAbout 
-            icon="dev"
-            heading="Responsive & Adaptive Designs"
-            text="Can develop responsive
-            and user-friendly web interfaces using modern front-end technologies."
+            icon="tools"
+            heading="Dev Tools & Technologies"
+            text="React, Tailwind, VS-Code, Git, GitHub, Vercel, Railway, Figma, MS-Office, Zendesk, Jira"
           />
 
           <CardAbout 
-            icon="dev"
-            heading="Responsive & Adaptive Designs"
-            text="Can develop responsive
-            and user-friendly web interfaces using modern front-end technologies."
+            icon="skills"
+            heading="Other Skills"
+            text="I am team player and have a strong communication skills. Also have experience in management"
           />  
         </div>
       </div>

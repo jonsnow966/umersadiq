@@ -8,7 +8,25 @@ const firstCardArray : string[] = [
   'HTML',
   'CSS',
   'Tailwind CSS',
-  'Styled Components', 
+  'C++',
+];
+
+const secondCardArray : string[] = [
+  'React Hooks',
+  'Context API',
+  'TanStack Query',
+  'react-hook-form',
+  'react-router-dom',
+  'Fetch API',  
+];
+
+const thirdCardArray : string[] = [
+  'Git',
+  'GitHub',
+  'Figma',
+  'Ms Office',
+  'Zendesk',
+  'Jira',  
 ];
 
 function Skills() {
@@ -16,7 +34,9 @@ function Skills() {
     <div  id='about' className="w-full min-h-screen 
     flex flex-col justify-start items-center pt-5 pb-10
     bg-black">
-      <h1 className="p-1 text-center text-4xl font-bold text-white mb-4 text-wrap">Skills & Technologies</h1>
+      <h1 className="p-1 text-center text-4xl font-bold text-white mb-4 text-wrap">
+        Skills & Technologies
+      </h1>
       <hr className="w-24 border-t-4 border-blue-500 animate-pulse" />  
        
       <div className="w-full pt-15 px-4 gap-7
@@ -25,28 +45,18 @@ function Skills() {
       text-lg sm:text-xl lg:text-2xl xl:text-xl text-gray-400">
         
         <CardSkills 
-          heading="Frontend Development"
+          heading="Development Tools"
           text={firstCardArray}
         />  
 
         <CardSkills 
-          heading="Frontend Development"
-          text={firstCardArray}
+          heading="Frontend Skills"
+          text={secondCardArray}
         />
 
         <CardSkills 
-          heading="Frontend Development"
-          text={firstCardArray}
-        />
-
-        <CardSkills 
-          heading="Frontend Development"
-          text={firstCardArray}
-        />
-
-        <CardSkills 
-          heading="Frontend Development"
-          text={firstCardArray}
+          heading="Other Tools"
+          text={thirdCardArray}
         />
        
       </div>

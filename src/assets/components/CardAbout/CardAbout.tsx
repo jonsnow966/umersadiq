@@ -1,4 +1,4 @@
-import { Code } from "lucide-react";
+import {  BadgeCent, Code, Database, ToolCaseIcon } from "lucide-react";
 import type { JSX } from "react";
 
 interface CardAboutProps {
@@ -8,7 +8,11 @@ interface CardAboutProps {
 }
 
 function CardAbout({ icon, heading, text }: CardAboutProps) {
-    const IconContainer: JSX.Element | null = icon === 'dev' ? <Code size={'2rem'}/> : null;
+    const IconContainer: JSX.Element | null = icon === 'dev' ? <Code size={'2rem'}/> 
+    : icon == 'backend' ? <Database size={'2rem'}/>
+    : icon == 'tools' ? <ToolCaseIcon  size={'2rem'}/>
+    : icon == 'skills' ? <BadgeCent size={'2rem'}/>
+    : null;
 
     return (
         <div className="w-fit h-fit
