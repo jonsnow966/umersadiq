@@ -1,8 +1,16 @@
 import { LinkedinIcon, Mail, MapPinIcon, PhoneIcon } from "lucide-react";
 import Typewriter from "../../components/Typewriter/Typewriter";
+import links from '../../JSON/links.json'
 
 type ScrollProps = {
     scrollToSection: (sectionId: string) => void;
+}
+
+interface LinkData{
+  mail?: string;
+  linkedin?: string;
+  phone?: string;
+  location?: string;
 }
 
 const phrases = [
@@ -14,6 +22,8 @@ const phrases = [
 
 function Home({ scrollToSection }: ScrollProps) {
   
+  const link : LinkData = links as LinkData;
+
   return (
     <div className="w-full min-h-screen flex flex-col justify-center items-center 
     bg-linear-to-r from-gray-900 via-navy-blue-2 to-black">
@@ -46,7 +56,7 @@ function Home({ scrollToSection }: ScrollProps) {
       flex flex-wrap justify-center items-center
       gap-x-5 gap-y-2 md:gap-5 mt-5 sm:mt-10">
 
-        <a href="https://maps.app.goo.gl/iRhp7FSMZuDz2aLU7" 
+        <a href={link.location}
         target="_blank" rel="noopener noreferrer"
         className=' flex justify-center items-center gap-2 
         text-[12px] sm:text-[14px] md:text-[16px]  text-gray-400 hover:text-blue-400'>
@@ -54,7 +64,7 @@ function Home({ scrollToSection }: ScrollProps) {
           Islamabad, Pakistan
         </a>
 
-        <a href="https://wa.me/+923332050848" 
+        <a href={link.phone}
         target="_blank" rel="noopener noreferrer"
         className=' flex justify-center items-center gap-2 
         text-[12px] sm:text-[14px] md:text-[16px]  text-gray-400 hover:text-blue-400'>
@@ -62,7 +72,7 @@ function Home({ scrollToSection }: ScrollProps) {
           +92333-2050848
         </a>
 
-        <a href="mailto:umar9733@yahoo.com" 
+        <a href={link.mail}
         target="_blank" rel="noopener noreferrer"
         className=' flex justify-center items-center gap-2 
         text-[12px] sm:text-[14px] md:text-[16px]  text-gray-400 hover:text-blue-400'>
@@ -93,7 +103,7 @@ function Home({ scrollToSection }: ScrollProps) {
       </div>
 
       <div className="w-full h-fit flex justify-center items-center gap-5 mt-5 md:mt-10">
-        <a href="https://www.linkedin.com/in/umersadiq1/" 
+        <a href={link.linkedin}
         target="_blank" rel="noopener noreferrer"
         className='flex justify-center items-center gap-2
         text-[12px] sm:text-[14px] md:text-[16px] text-gray-400 hover:text-blue-400 
@@ -101,7 +111,7 @@ function Home({ scrollToSection }: ScrollProps) {
           <LinkedinIcon />
         </a>
 
-        <a href="mailto:umar9733@yahoo.com" 
+        <a href={link.mail}
         target="_blank" rel="noopener noreferrer"
         className='flex justify-center items-center gap-2
         text-[12px] sm:text-[14px] md:text-[16px] text-gray-400 hover:text-blue-400 

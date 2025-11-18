@@ -2,14 +2,14 @@ import { Calendar, MapPinIcon } from "lucide-react";
 
 interface CardExperienceProps {
     title?: string;
-    company?: string;
+    companyName?: string;
     date?: string;
-    location?: string;
-    text?: string[];
-    points?: string[];
+    location?: string; 
+    details?: string[];
+    tools?: string[];
 }
 
-function CardExperience({ title, company, date, location, text, points }: CardExperienceProps) {
+function CardExperience({ title, companyName, date, location, details, tools }: CardExperienceProps) {
     
     return (
         <div className="flex-1 h-fit
@@ -20,7 +20,7 @@ function CardExperience({ title, company, date, location, text, points }: CardEx
                 <div className="w-full h-fit flex flex-col justify-start items-start gap-2">
                     <p className="text-white font-bold text-[1rem]">{title}</p>
 
-                    <p className="text-blue-400 text-[14px] animate-pulse">{company}</p>
+                    <p className="text-blue-400 text-[14px] animate-pulse">{companyName}</p>
                 </div>
                 <div className="w-full h-fit flex flex-col md:flex-row 
                 justify-start items-start md:justify-end gap-1 md:gap-3">
@@ -34,7 +34,7 @@ function CardExperience({ title, company, date, location, text, points }: CardEx
             
             <ul className="w-full h-fit mt-5
             flex flex-col justify-start items-start gap-3 ">
-            {text?.map((description, index) => (
+            {details?.map((description, index) => (
                 <li className="flex justify-center items-start gap-2
                 text-[14px] text-gray-200" key={index}>
                     <span className="text-blue-300">&bull;</span>{description}</li>
@@ -43,7 +43,7 @@ function CardExperience({ title, company, date, location, text, points }: CardEx
 
             <ul className="w-full h-fit mt-5
             flex flex-wrap justify-start items-start gap-3 ">
-            {points?.map((point, index) => (
+            {tools?.map((point, index) => (
                 <li className="px-3 py-[4px] 
                 rounded-full bg-inherit border border-blue-800
                 text-[12px] text-blue-300 hover:text-blue-300 font-bold" key={index}>{point}</li>

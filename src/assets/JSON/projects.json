@@ -1,0 +1,52 @@
+[
+    
+    {
+        "id":1,
+        "icon" : "api",
+        "title" : "API Integration Project",
+        "description": "A simple project demonstrating API integration and CRUD Ops using React.js and Fetch API.",
+        "link": "api-demo-3.vercel.app",
+        "details": [
+            "Data input with react-hook-form", 
+            "Manual user input validations", 
+            "Promises for API calls", 
+            "State management with tanStackQuery", 
+            "Dark and Light Theme toggle via useContext", 
+            "Responsive design with TailwindCSS." 
+        ],
+        "tech":[
+            "React",
+            "TypeScript",
+            "TailwindCSS",
+            "react-hook-form",
+            "tanStackQuery",
+            "Fetch API",
+            "Dark Mode",
+            "CRUD Operations"
+        ]
+    },
+    {
+        "id":2,
+        "icon" : "airbnb",
+        "title" : "Air Bnb Clone",
+        "description": "A responsive Air Bnb clone built with React.js and TailwindCSS.",
+        "link": "air-bnb-app-3.vercel.app",
+        "details": [
+            "Responsive design with TailwindCSS",
+            "Page to page navigation with React Router",
+            "Dynamic Card rendering from JSON data",
+            "Deployment with Vercel"
+        ],
+        "tech":[
+            "React",
+            "TypeScript",
+            "TailwindCSS",
+            "React-Router",
+            "JSON",
+            "Vercel"
+        ]
+    }
+]
+
+
+   

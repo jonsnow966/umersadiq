@@ -1,0 +1,21 @@
+ {
+        "id":3,
+        "icon" : "youtube",
+        "title" : "Youtube Clone",
+        "description": "A responsive Youtube clone built with React.js and TailwindCSS.",
+        "link": "youtube-app-jonsnow.vercel.app",
+        "details": [
+            "Responsive design with TailwindCSS",
+            "Page to page navigation with React Router",
+            "Dynamic Card rendering from JSON data",
+            "Deployment with Vercel"
+        ],
+        "tech":[
+            "React",
+            "TypeScript",
+            "TailwindCSS",
+            "React-Router",
+            "JSON",
+            "Vercel"
+        ]
+    }

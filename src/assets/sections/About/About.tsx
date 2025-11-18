@@ -1,6 +1,5 @@
 import CardAbout from "../../components/CardAbout/CardAbout"
 
-
 function About() {
   return (
     <div  id='about' className="w-full min-h-screen 

@@ -2,21 +2,19 @@ import { Code, LinkIcon, YoutubeIcon } from "lucide-react";
 import type { JSX } from "react";
 
 interface CardProjectProps {
+    id?: number;
     icon?: string;
     title?: string;
     description?: string;
-    link?: string;  
-    text?: string[];
-    points?: string[];
-    status?: string;
+    link?: string;
+    details?: string[];
+    tech?: string[];
 }
 
-function CardProject({ icon, title, description, link, text, points, status }: CardProjectProps) {
+function CardProject({ icon, title, description, link, details, tech }: CardProjectProps) {
     const IconContainer: JSX.Element | null = icon === 'api' ? <Code size={'2rem'}/> :
     icon === 'airbnb' ? <img src='airbnb-icon.svg' alt="Airbnb Icon" width="28px" /> :
     icon === 'youtube' ? <YoutubeIcon size={'2rem'}/> : null;
-
-    const statusColor = status === 'Complete' ? 'text-green-500' : status === 'In Progress' ? 'text-yellow-500' : 'text-red-500';
     
     return (
         <div className="flex-1 h-fit
@@ -44,7 +42,7 @@ function CardProject({ icon, title, description, link, text, points, status }: C
             <ul className="w-full h-fit mt-5
             flex flex-col justify-start items-start gap-3 ">
                 <p className="text-white font-bold text-[1rem]">Key Features:</p>
-                {text?.map((description, index) => (
+                {details?.map((description, index) => (
                     <li className="flex justify-center items-start gap-2
                     text-[14px] text-gray-200" key={index}>
                         <span className="text-blue-300">&bull;</span>{description}</li>
@@ -53,15 +51,12 @@ function CardProject({ icon, title, description, link, text, points, status }: C
 
             <ul className="w-full h-fit mt-5
             flex flex-wrap justify-start items-start gap-3 ">
-                {points?.map((point, index) => (
+                {tech?.map((point, index) => (
                     <li className="px-3 py-1 
                     rounded-full bg-inherit border border-blue-800
                     text-[12px] text-blue-300 hover:text-blue-300 font-bold" key={index}>{point}</li>
                     ))}
             </ul>
-            <p className="text-white font-bold text-[1rem] mt-10 
-            flex justify-center items-center gap-2">Status: 
-                <span className={statusColor}>{status}</span></p>
         </div>
     )
 }

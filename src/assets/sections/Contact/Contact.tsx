@@ -1,9 +1,19 @@
 import { LinkedinIcon, Mail, MapPin, Phone } from "lucide-react"
+import links from '../../JSON/links.json'
 
+interface LinkData{
+  mail?: string;
+  linkedin?: string;
+  phone?: string;
+  location?: string;
+}
 
 function Contact() {
+
+  const link : LinkData = links as LinkData;
+
   return (
-    <div  id='about' className="w-full min-h-screen 
+    <div  id='about' className="w-full min-h-screen p-2
     flex flex-col justify-start items-center pt-5 pb-20
     bg-bg-gray">
       <h1 className="text-4xl font-bold text-white mb-4">Get In Touch</h1> 
@@ -33,7 +43,7 @@ function Contact() {
                   </div>
                   <p className="w-full flex flex-col">
                     <span className="text-white text-lg">Email</span>
-                    <a className="text-blue-400 text-[12px] sm:text-lg" target="_blank" href="mailto:umar9733@yahoo.com">umar9733@yahoo.com</a>
+                    <a className="text-blue-400 text-[12px] sm:text-lg" target="_blank" href={link.mail}>umar9733@yahoo.com</a>
                   </p>
                 </div>
 
@@ -44,7 +54,7 @@ function Contact() {
                   </div>
                   <p className="w-full flex flex-col">
                     <span className="text-white text-lg">Phone</span>
-                    <a className="text-blue-400 text-[12px] sm:text-lg" target="_blank" href="https://wa.me/+923332050848">+92333-2050848</a>
+                    <a className="text-blue-400 text-[12px] sm:text-lg" target="_blank" href={link.phone}>+92333-2050848</a>
                   </p>
                 </div>
 
@@ -55,7 +65,7 @@ function Contact() {
                   </div>
                   <p className="w-full flex flex-col">
                     <span className="text-white text-lg">Location</span>
-                    <a className="text-blue-400 text-[12px] sm:text-lg" target="_blank" href="https://maps.app.goo.gl/iRhp7FSMZuDz2aLU7">Islamabad, Pakistan</a>
+                    <a className="text-blue-400 text-[12px] sm:text-lg" target="_blank" href={link.location}>Islamabad, Pakistan</a>
                   </p>
                 </div>
 
@@ -66,7 +76,7 @@ function Contact() {
                   </div>
                   <p className="w-full flex flex-col">
                     <span className="text-white text-lg">Linkedin</span>
-                    <a className="text-blue-400 text-[12px] sm:text-lg" target="_blank" href="https://www.linkedin.com/in/umersadiq1/">
+                    <a className="text-blue-400 text-[12px] sm:text-lg" target="_blank" href={link.linkedin}>
                     linkedin.com/in/umersadiq1/</a>
                   </p>
                 </div>                      
@@ -93,7 +103,7 @@ function Contact() {
                 rounded-[7px] bg-blue-800 text-white
                 hover:scale-101 hover:shadow-2xl cursor-pointer
                 transition-all duration-500 ease-in-out"
-                target="_blank" href="mailto:umar9733@yahoo.com">
+                target="_blank" href={link.mail}>
                     <Mail className="text-white" size={"1rem"}/> Send Email
                 </a>
                 
@@ -103,7 +113,7 @@ function Contact() {
                 rounded-[7px] bg-white text-gray-700
                 hover:scale-101 hover:shadow-2xl hover:bg-gray-700 hover:text-white cursor-pointer
                 transition-all duration-500 ease-in-out"
-                target="_blank" href="https://www.linkedin.com/in/umersadiq1/">
+                target="_blank" href={link.linkedin}>
                     <LinkedinIcon size={"1rem"}/> Connect on Linkedin
                 </a>
 

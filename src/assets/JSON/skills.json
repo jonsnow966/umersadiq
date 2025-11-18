@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "title": "Development Tools",
+        "skillSet": [
+            "React",
+            "TypeScript",
+            "JavaScript",
+            "Node.js",
+            "HTML",
+            "CSS",
+            "Tailwind CSS",
+            "C++"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Frontend Skills",
+        "skillSet": [
+            "React Hooks",
+            "Contect API",
+            "TanStack Query",
+            "react-hook-form",
+            "react-router-dom",
+            "Fetch API"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Other Tools",
+        "skillSet": [
+            "Git",
+            "GitHub",
+            "Figma",
+            "MS Office",
+            "Zendesk",
+            "Jira"
+        ]
+    }
+]

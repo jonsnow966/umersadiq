@@ -1,35 +1,16 @@
 import CardSkills from "../../components/CardSkills/CardSkills";
+import skills from '../../JSON/skills.json';
 
-const firstCardArray : string[] = [
-  'React',
-  'TypeScript',
-  'JavaScript',
-  'Node.js',
-  'HTML',
-  'CSS',
-  'Tailwind CSS',
-  'C++',
-];
+interface SkillsData{
+  id?: number;
+  title?: string;
+  skillSet?: string[];
+}
 
-const secondCardArray : string[] = [
-  'React Hooks',
-  'Context API',
-  'TanStack Query',
-  'react-hook-form',
-  'react-router-dom',
-  'Fetch API',  
-];
+const Skills : React.FC = () => {
+  
+  const cardData : SkillsData[] = skills as SkillsData[];
 
-const thirdCardArray : string[] = [
-  'Git',
-  'GitHub',
-  'Figma',
-  'Ms Office',
-  'Zendesk',
-  'Jira',  
-];
-
-function Skills() {
   return (
     <div  id='about' className="w-full min-h-screen 
     flex flex-col justify-start items-center pt-5 pb-10
@@ -43,22 +24,14 @@ function Skills() {
       md:px-5 2xl:px-[150px]
       grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
       text-lg sm:text-xl lg:text-2xl xl:text-xl text-gray-400">
-        
-        <CardSkills 
-          heading="Development Tools"
-          text={firstCardArray}
-        />  
-
-        <CardSkills 
-          heading="Frontend Skills"
-          text={secondCardArray}
-        />
-
-        <CardSkills 
-          heading="Other Tools"
-          text={thirdCardArray}
-        />
-       
+        {
+          cardData.map(items =>(
+            <CardSkills 
+              title={items.title}
+              skillSet = {items.skillSet}
+            />
+          ))
+        }
       </div>
     </div>
   )
