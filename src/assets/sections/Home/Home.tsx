@@ -1,4 +1,4 @@
-import { LinkedinIcon, Mail, MapPinIcon, PhoneIcon } from "lucide-react";
+import { Download, LinkedinIcon, Mail, MapPinIcon, PhoneIcon } from "lucide-react";
 import Typewriter from "../../components/Typewriter/Typewriter";
 import links from '../../JSON/links.json'
 
@@ -11,6 +11,7 @@ interface LinkData{
   linkedin?: string;
   phone?: string;
   location?: string;
+  cv?: string;
 }
 
 const phrases = [
@@ -78,6 +79,14 @@ function Home({ scrollToSection }: ScrollProps) {
         text-[12px] sm:text-[14px] md:text-[16px]  text-gray-400 hover:text-blue-400'>
           <Mail size={'1rem'}/>
           umar9733@yahoo.com
+        </a>
+
+        <a href={link.cv}
+        target="_blank" rel="noopener noreferrer"
+        className=' flex justify-center items-center gap-2 
+        text-[12px] sm:text-[14px] md:text-[16px]  text-gray-400 hover:text-blue-400'>
+          <Download size={'1rem'}/>
+          Download CV
         </a>
       </div>
 
