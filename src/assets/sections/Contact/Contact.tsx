@@ -34,7 +34,7 @@ function Contact() {
               
               <div className="w-full h-fit flex flex-col justify-start items-start gap-3">
                   
-                <p className="text-white font-bold text-[32px]">Contact Information</p>
+                <p className="text-white font-bold text-[24px]">Contact Information</p>
 
                 <div className="flex justify-start items-center gap-4 mt-2">
                   <div className="flex justify-center items-center p-2
@@ -91,7 +91,7 @@ function Contact() {
               
               <div className="w-full h-fit flex flex-col justify-start items-start gap-3">
                   
-                <p className="text-white font-bold text-[32px]">Lets Connect</p>
+                <p className="text-white font-semibold text-[24px]">Lets Connect</p>
                 <p className="text-[18px] text-gray-200 mt-2 mb-10">
                   I'm currently open to new opportunities and would love to hear about your project. 
                   Whether you're looking for a front-end developer or just want to say hello, feel free to reach out! 
