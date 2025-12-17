@@ -1,20 +1,22 @@
 [
-    
     {
-        "id":1,
-        "icon" : "api",
-        "title" : "API Integration Project",
+        "id": 1,
+        "icon": "api",
+        "title": "API Integration Project",
         "description": "A simple project demonstrating API integration and CRUD Ops using React.js and Fetch API.",
         "link": "api-demo-3.vercel.app",
         "details": [
-            "Data input with react-hook-form", 
-            "Manual user input validations", 
-            "Promises for API calls", 
-            "State management with tanStackQuery", 
-            "Dark and Light Theme toggle via useContext", 
-            "Responsive design with TailwindCSS." 
+            "Data input with react-hook-form",
+            "Form validation using Yup schema validation with @hookform/resolvers",
+            "Automatic title case conversion for names (e.g., 'jon snow' → 'Jon Snow')",
+            "Age validation restricted to positive integers between 18 and 55 with custom error messages",
+            "Promises and async/await for API calls",
+            "State management with TanStack Query (React Query)",
+            "Dark and Light Theme toggle via useContext",
+            "Responsive design with TailwindCSS",
+            "Mock backend API deployed on Cloudflare Workers with KV storage"
         ],
-        "tech":[
+        "tech": [
             "React",
             "TypeScript",
             "TailwindCSS",
@@ -26,9 +28,9 @@
         ]
     },
     {
-        "id":2,
-        "icon" : "airbnb",
-        "title" : "Air Bnb Clone",
+        "id": 2,
+        "icon": "airbnb",
+        "title": "Air Bnb Clone",
         "description": "A responsive Air Bnb clone built with React.js and TailwindCSS.",
         "link": "air-bnb-app-3.vercel.app",
         "details": [
@@ -37,7 +39,7 @@
             "Dynamic Card rendering from JSON data",
             "Deployment with Vercel"
         ],
-        "tech":[
+        "tech": [
             "React",
             "TypeScript",
             "TailwindCSS",
@@ -47,6 +49,3 @@
         ]
     }
 ]
-
-
-   
