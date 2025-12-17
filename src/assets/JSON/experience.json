@@ -16,7 +16,9 @@
 
             "I have hands-on familiarity with asynchronous patterns including callbacks and Promises for API interactions, alongside TanStack Query for robust, declarative data fetching, caching, and background synchronization.",
 
-            "I possess a solid conceptual understanding of RESTful APIs, the Virtual DOM, and SPA architecture."
+            "I possess a solid conceptual understanding of RESTful APIs, the Virtual DOM, and SPA architecture.",
+
+            "Also have worked on cloudflare workers to deploy mock backend APIs with KV storage, version control with github and web app deployments on vercel."
         ],
         "tools":[
             "HTML",
@@ -34,7 +36,10 @@
             "Promises",
             "Virtual DOM",
             "SPA Architecture",
-            "RestfulAPIs"
+            "RestfulAPIs",
+            "Cloudflare Workers",
+            "GitHub",
+            "Vercel"
         ]
     },
     {
