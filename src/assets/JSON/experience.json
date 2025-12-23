@@ -6,9 +6,9 @@
         "date":"August 2025 - Ongoing",
         "location": "Islamabad, Pakistan",
         "details":[
-            "Over the course of this self-directed learning journey, I have acquired foundational proficiency in HTML, CSS, TailwindCSS, JavaScript, and React.js.",
+            "Over the course of this self-directed learning journey, I have acquired foundational proficiency in HTML, CSS, TailwindCSS, JavaScript, React.js and React-Native",
 
-            "I excel in crafting responsive and component based engaging web experiences using TailwindCSS, seamlessly weaving pre-built dynamic components into bespoke layouts while adeptly integrating externally authored constructs into established project architectures.",
+            "I excel in crafting responsive and component based engaging web / mobile experiences using TailwindCSS/NativeWind, seamlessly weaving pre-built dynamic components into bespoke layouts while adeptly integrating externally authored constructs into established project architectures.",
 
             "I am well-versed in leveraging React hooks—useState, useRef, useEffect, and useContext—to efficiently manage component life-cycle, state, and shared context.",
 
@@ -16,19 +16,22 @@
 
             "I have hands-on familiarity with asynchronous patterns including callbacks and Promises for API interactions, alongside TanStack Query for robust, declarative data fetching, caching, and background synchronization.",
 
-            "I possess a solid conceptual understanding of RESTful APIs, the Virtual DOM, and SPA architecture.",
+            "I possess a solid conceptual understanding of ContextAPI, RESTful APIs, the Virtual DOM and SPA architecture.",
 
-            "Also have worked on cloud-flare workers to deploy mock back-end APIs with KV storage, version control with GitHub and web app deployments on Vercel."
+            "Also have worked on cloud-flare workers to deploy mock back-end APIs with KV storage, version control with GitHub and web app deployments on Vercel."
         ],
         "tools":[
             "HTML",
             "CSS",
             "JavaScript",
             "React",
+            "React-Native",
             "TailwindCSS",
+            "NativeWind",
             "React Hooks",
             "React Router",
             "react-hook-form",
+            "ContextAPI",
             "Zod",
             "Yup",
             "TanStack Query",

@@ -16,7 +16,9 @@ interface LinkData{
 
 const phrases = [
   'Web Developer',
+  'Mobile App Developer',
   'React Developer',
+  'React-Native Developer',
   'Front-End Developer',
   'I Love to Develop.',
 ];
@@ -48,7 +50,7 @@ function Home({ scrollToSection }: ScrollProps) {
       mt-5 md:mt-10 sm:mt-8 px-5 sm:px-0
       text-center text-wrap 
       text-lg sm:text-xl md:text-2xl  text-gray-400">
-        Proficient in React.js, 
+        Proficient in React.js, React-Native, 
         JavaScript and Tailwindcss. Passionate about crafting dynamic 
         interfaces and building scalable solutions.
       </p>

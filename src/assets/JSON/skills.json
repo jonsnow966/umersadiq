@@ -4,6 +4,7 @@
         "title": "Development Tools",
         "skillSet": [
             "React",
+            "React-Native",
             "TypeScript",
             "JavaScript",
             "Node.js",
@@ -18,7 +19,7 @@
         "title": "Frontend Skills",
         "skillSet": [
             "React Hooks",
-            "Contect API",
+            "ContextAPI",
             "TanStack Query",
             "react-hook-form",
             "react-router-dom",
@@ -31,6 +32,8 @@
         "skillSet": [
             "Git",
             "GitHub",
+            "Expo",
+            "Cloud-flare",
             "Figma",
             "MS Office",
             "Zendesk",

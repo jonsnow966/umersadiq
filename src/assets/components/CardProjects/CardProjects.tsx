@@ -14,7 +14,10 @@ interface CardProjectProps {
 function CardProject({ icon, title, description, link, details, tech }: CardProjectProps) {
     const IconContainer: JSX.Element | null = icon === 'api' ? <Code size={'2rem'}/> :
     icon === 'airbnb' ? <img src='airbnb-icon.svg' alt="Airbnb Icon" width="28px" /> :
-    icon === 'youtube' ? <YoutubeIcon size={'2rem'}/> : null;
+    icon === 'youtube' ? <YoutubeIcon size={'2rem'}/> : 
+    icon === 'cartify' ? <img src='cartify-icon.svg' alt='Cartify Icon' width='28px'/>: null;
+
+    const dummyLink = icon === 'cartify' ? 'apk.link/drive' : link;
     
     return (
         <div className="flex-1 h-fit
@@ -34,7 +37,7 @@ function CardProject({ icon, title, description, link, details, tech }: CardProj
                     <a href={`https://${link}`} className="flex justify-center items-center
                      gap-2 text-[13px] text-blue-300 hover:underline" 
                      target="_blank" rel="noopener noreferrer">
-                       <LinkIcon size={'1rem'}/>{link}
+                       <LinkIcon size={'1rem'}/>{dummyLink}
                     </a>
                 </div>
             </div>

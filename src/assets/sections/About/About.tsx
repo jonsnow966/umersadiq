@@ -56,7 +56,7 @@ function About() {
           <CardAbout 
             icon="tools"
             heading="Dev Tools & Technologies"
-            text="React, Tailwind, VS-Code, Git, GitHub, Vercel, Railway, Figma, MS-Office, Zendesk, Jira"
+            text="React, React-Native, Tailwind/NativeWind, Expo, VS-Code, Git, GitHub, Vercel, Cloud-flare, Figma, MS-Office, Zendesk, Jira"
           />
 
           <CardAbout 

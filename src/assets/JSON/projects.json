@@ -1,6 +1,41 @@
 [
     {
         "id": 1,
+        "icon": "cartify",
+        "title": "Cartify - Mobile App",
+        "description": "A mobile app for managing shopping lists, adding/buying items with categories and metrics, calculating bills, and generating/shareable PDF invoices.",
+        "link": "drive.google.com/drive/folders/1trH5T6M4UZWMZKjedOcOzmhmGs2bxHgO",
+        "details": [
+            "Add items with category selection (Grocery, Vegetables, Fruits, Meat, Dairy) and metrics (kg, oz, dozen, litre, packet, pieces)",
+            "Form validation using React Hook Form and Yup schema, including title case conversion for item names and quantity/rate restrictions",
+            "Item listing with SectionList, grouped by creation date, expandable sections, and buy functionality with rate input",
+            "Billing page for viewing added items, calculating grand totals, deleting items and generating PDF bills",
+            "PDF generation and sharing using Expo Print and Expo Sharing",
+            "Dark/Light theme toggle with persistence via AsyncStorage and React ContextAPI",
+            "Navigation with Expo Router and custom header with theme-aware styling",
+            "Local data persistence for items and bills using AsyncStorage",
+            "Responsive UI with NativeWind (TailwindCSS for React Native) and safe area handling"
+        ],
+        "tech": [
+            "Expo",
+            "React Native",
+            "TypeScript",
+            "NativeWind",
+            "TailwindCSS",
+            "React Hook Form",
+            "Yup",
+            "AsyncStorage",
+            "Expo Router",
+            "Expo Print",
+            "Expo Sharing",
+            "Expo Splash Screen",
+            "Lucide Icons",
+            "React Native Picker",
+            "React ContextAPI"
+        ]
+    },
+    {
+        "id": 2,
         "icon": "api",
         "title": "API Integration Project",
         "description": "A simple project demonstrating API integration and CRUD Ops using React.js and Fetch API.",
@@ -28,7 +63,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "icon": "airbnb",
         "title": "Air Bnb Clone",
         "description": "A responsive Air Bnb clone built with React.js and TailwindCSS.",
