@@ -19,6 +19,8 @@
             "React Router",
             "react-hook-form",
             "ContextAPI",
+            "tanStack Query",
+            "Redux",
             "Zod",
             "Yup",
             "TanStack Query",
