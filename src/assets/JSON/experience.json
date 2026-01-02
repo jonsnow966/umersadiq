@@ -1,33 +1,20 @@
 [
     {
-        "id":1,
-        "title":"Self-Directed Front-End Developer Journey",
-        "companyName": "Home-Based",
-        "date":"August 2025 - Ongoing",
+        "id": 1,
+        "title": "Front-End Developer (Web)",
+        "companyName": "Fexen Smart Solutions",
+        "date": "December 2024 – September 2025",
         "location": "Islamabad, Pakistan",
-        "details":[
-            "Over the course of this self-directed learning journey, I have acquired foundational proficiency in HTML, CSS, TailwindCSS, JavaScript, React.js and React-Native",
-
-            "I excel in crafting responsive and component based engaging web / mobile experiences using TailwindCSS/NativeWind, seamlessly weaving pre-built dynamic components into bespoke layouts while adeptly integrating externally authored constructs into established project architectures.",
-
-            "I am well-versed in leveraging React hooks—useState, useRef, useEffect, and useContext—to efficiently manage component life-cycle, state, and shared context.",
-
-            "I am experienced with React Router for seamless navigation, react-hook-form for streamlined data input, and schema-based validation using Zod and Yup.",
-
-            "I have hands-on familiarity with asynchronous patterns including callbacks and Promises for API interactions, alongside TanStack Query for robust, declarative data fetching, caching, and background synchronization.",
-
-            "I possess a solid conceptual understanding of ContextAPI, RESTful APIs, the Virtual DOM and SPA architecture.",
-
-            "Also have worked on cloud-flare workers to deploy mock back-end APIs with KV storage, version control with GitHub and web app deployments on Vercel."
+        "details": [
+            "Worked with React.js and TailwindCSS on live web projects, contributing to various features and improvements.",
+            "Helped build responsive web interfaces using TailwindCSS, collaborating with the team to integrate reusable components, third-party libraries and custom layouts while ensuring consistent design across devices.",
+            "Used React hooks (useState, useRef, useEffect, useContext), Redux and tanStack Query for state and life-cycle management, contributed to client-side routing with React Router, form handling with react-hook-form + validation (Zod, Yup).",
+            "Assisted with API integration (RESTful endpoints, async/await, Promises), Context API for shared state and followed standard SPA best practices.",
+            "Supported deployment workflows: helped set up mock APIs on Cloudflare Workers with KV storage, used GitHub for version control and deployed web builds on Vercel as part of the team."
         ],
-        "tools":[
-            "HTML",
-            "CSS",
-            "JavaScript",
+        "tools": [
             "React",
-            "React-Native",
             "TailwindCSS",
-            "NativeWind",
             "React Hooks",
             "React Router",
             "react-hook-form",
@@ -46,29 +33,25 @@
         ]
     },
     {
-        "id":2,
-        "title":"Technical Support Engineer",
-        "companyName": "Fexen Smart Solutions",
-        "date":"December 2014 - September 2025",
+        "id": 2,
+        "title": "Front End Dev Intern (Web & Mobile)",
+        "companyName": "Aivatek",
+        "date": "August 2024 – October 2024",
         "location": "Islamabad, Pakistan",
-        "details":[
-            "Delivered specialized technical support for blockchain-powered platforms and cryptocurrency exchange interfaces developed by Fexen, ensuring seamless user functionality and issue resolution.",
-
-            "Designed and maintained user-centric support infrastructure, including dynamic 'How It Works' interactive guides in Figma and detailed FAQ sections to empower users and elevate on boarding experiences.",
-
-            "Concurrently initiated self-directed exploration into front-end development during tenure, acquiring foundational skills in HTML, CSS, JavaScript, and React.js to enhance technical proficiency and contribute to team projects."
+        "details": [
+            "Learned to convert design mockups into clean, responsive web pages using HTML5, CSS3, and modern JavaScript (ES6+), quickly grasping how to make them look and perform consistently across mobile, tablet and desktop devices.",
+            "Gained hands-on experience building reusable React.js components and managing state with hooks, while getting comfortable with team practices like mobile-first design, collaborative Git workflows and practical debugging techniques.",
+            "Received initial exposure to React Native development, learning core concepts, component structure and cross-platform basics while contributing to mock mobile project tasks under team guidance."
         ],
-        "tools":[
-            "Zendesk",
-            "Jira",
-            "Blockchain",
-            "MS Office",
-            "Figma",
+        "tools": [
             "HTML",
             "CSS",
             "JavaScript",
-            "React"
-            
+            "React",
+            "React-Native",
+            "NativeWind",
+            "GitHub",
+            "Vercel"
         ]
     }
 ]
